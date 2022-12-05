@@ -1,0 +1,149 @@
+/* Reset CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+li{
+    list-style: none;
+    cursor:pointer;
+   
+}
+li:hover{
+    background-color: rgba(255, 255, 255, 0.205)
+}
+/* HEader */
+header{
+    background-color: black;
+    color: aliceblue;
+    height: 80px;
+    width: 100%;
+}
+
+.header-logo{
+    float: left;
+    padding-left: 15px;
+    margin-top: -40px;
+    font-size: 36px;
+}
+
+.header-nav li{
+    float: right;
+    padding: 35px 20px;
+   
+}
+
+/* MAIN / CONTENT */
+main{
+    padding: 70px 70px;   
+}
+
+.main-container h1{
+    font-size: 65px;
+    color: rgb(3, 3, 3);
+    
+}
+/* btn*/
+
+.main-container h2{
+    font-size: 55px;
+    color: #333;
+    
+}
+
+
+#btn2{
+    background-color: #808080;
+    color:black;
+    font-size: 17px;
+    float:LEFT;
+    border-radius: 13px;
+    padding: 8px 9px;
+    margin-top: 30px;
+    border-color: #808080;
+}
+#btn2:hover{
+    background-color: rgb(92, 92, 92);
+    border-color: rgb(92, 92, 92);
+}
+
+/* bagian contents */
+.contents{
+    height: auto;
+    margin-top: 100px;
+    width:50%
+    
+}
+
+.contents h3{
+    border-bottom: 5px solid #cecece;
+    border-top: 5px solid #cecece;
+    font-size: 35px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    padding-top: 15px;
+    text-align: left;
+    width:200%;
+    
+}
+   
+.paragraph{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+    text-align: justify;
+    font-size: larger;
+}
+
+.contents-item{
+    margin-left: 170px;
+    margin-bottom: 25px;
+}
+
+.paragraph{
+    margin-bottom: 17px;
+    margin-right: -600px;
+    text-align: justify;
+
+}
+/* FOOTER */
+footer{
+    background-color: black;
+    color: #cecece;
+    padding: 25px 40px ;
+    height: 30px;
+    width: 95%;
+}
+
+.footer-logo{
+    float: left;
+    font-size:  30px;
+}
+
+.footer-nav li{
+    padding: 10px 20px;
+    float: right;
+    margin-left: 20px;
+}
+
+#test{
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-bottom: -50px;
+    
+}
+#img1{
+    width: 612px;
+    height: 408px;
+    margin-left: 100px;
+}

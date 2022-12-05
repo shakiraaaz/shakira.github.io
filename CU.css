@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 10px;
+    height: 100vh;
+    margin: -20px 0 50px;
+    padding: 10PX;
+}
+
+.container{
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(184, 184, 184, 0.863), 0 10 px 10 px rgba(59, 59, 59, 0.507);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 522px;
+    min-width: 370px;
+}
+.card-container{
+    display: flex;
+}
+.left{
+    flex: 1;
+    height: 480px;
+    background-color: rgb(126, 126, 126);
+}
+.right{
+    display: flex;
+    flex: 1;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex: 1;
+    height: 522px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.left.container{
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    line-height: 22px;
+}
+.left p{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.right-container{
+    width: 70%;
+    height: 80%;
+    text-align: center;
+}
+input,
+textarea{
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    width:100%;
+    margin: 8px 0;
+    font-size: 0.8rem;
+
+}
+input:focus,
+textarea:focus{
+    outline: 1px solid #ffffff;
+}
+button{
+    border-radius: 20px;
+    border: 1px solid rgb(126, 126, 126);
+    background-color:  rgb(126, 126, 126);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-out;
+}
+button:hover{
+    opacity: 0.7;
+}
+textarea{
+    height: 90px;
+}
+.btn{
+    padding: 9px;
+
+}

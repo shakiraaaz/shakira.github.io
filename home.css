@@ -1,0 +1,115 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+li{
+    list-style: none;
+    cursor:pointer;
+    color:#cecece;
+}
+li:hover{
+    background-color: rgba(255, 255, 255, 0.205)
+}
+/* HEader */
+header{
+    background-color: black;
+    color: aliceblue;
+    height: 80px;
+    width: 100%;
+}
+
+.header-logo{
+    float: left;
+    padding-left: 15px;
+    margin-top: -40px;
+    font-size: 36px;
+}
+
+.header-nav li{
+    float: right;
+    padding: 35px 20px;
+   
+}
+
+/* MAIN / CONTENT */
+main{
+    padding: 70px 70px; 
+    height: 800px;
+    
+}
+
+.main-container h1{
+    font-size: 65px;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid #cecece;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+
+    
+}
+.judul{
+    float:right;
+    font-size: 20px;
+    margin-right:40%;
+    padding-top: 80px;
+    color: rgb(46, 134, 156);
+    
+}
+.prgp{
+    text-align: justify;
+    margin-left: 30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+    margin-top: -10%;
+    padding-left: 7px;
+    
+}
+#btn1{
+    background-color: #1b99d3;
+    border-radius: 5px;
+    border-color: #1b99d3;
+    font-size: 15px;
+    padding: 3px 3px;
+    float: left;
+    margin-left: 370px;
+    margin-top: -40px;
+    
+}
+#btn1:hover{
+    background-color: #06b4b4;
+}
+#img1{
+    width: 350px;
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: #cecece;
+    padding: 25px 40px ;
+    height: 30px;
+    width: 95%;
+}
+
+.footer-logo{
+    float: left;
+    font-size:  30px;
+}
+
+.footer-nav li{
+    padding: 10px 20px;
+    float: right;
+    margin-left: 20px;
+}
+
+
