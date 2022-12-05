@@ -62,20 +62,6 @@ main{
 }
 
 
-#btn2{
-    background-color: #808080;
-    color:black;
-    font-size: 17px;
-    float:LEFT;
-    border-radius: 13px;
-    padding: 8px 9px;
-    margin-top: 30px;
-    border-color: #808080;
-}
-#btn2:hover{
-    background-color: rgb(92, 92, 92);
-    border-color: rgb(92, 92, 92);
-}
 
 /* bagian contents */
 .contents{
