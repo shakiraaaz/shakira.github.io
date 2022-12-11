@@ -23,7 +23,7 @@ li{
     color:#cecece;
 }
 li:hover{
-    background-color: rgba(255, 255, 255, 0.205)
+    background-color: rgba(255, 255, 255, 0.205);
 }
 /* HEader */
 header{
@@ -64,7 +64,7 @@ main{
 }
 .judul{
     font-size: 25px;
-    color: rgb(46, 134, 156);
+    color: rgb(0, 0, 0);
     
 }
 .prgp{
@@ -74,16 +74,18 @@ main{
     
 }
 #btn1{
-    background-color: #1b99d3;
+    background-color: #000000;
     border-radius: 5px;
-    border-color: #1b99d3;
-    font-size: 15px;
-    padding: 3px 3px;
+    border-color: #000000;
+    font-size: 12px;
+    color: #cecece;
+    padding: 5px 5px;
     
     
 }
 #btn1:hover{
-    background-color: #06b4b4;
+    background-color: #7a7a7a;
+    border-color: #7a7a7a ;
 }
 
 
@@ -96,4 +98,22 @@ footer{
     width: 100%;
     margin-top: auto;
     text-align: center;
+}
+
+@media (max-width:600px){
+    .main-container h1{
+    font-size: 35px;
+    }
+    .judul{
+        font-size: 12px;
+    }
+    .prgp{
+        font-size: 9px;
+    }
+    #btn1{
+        border-radius: 5px;
+        font-size: 6px;
+        padding: 2px 2px;
+       
+    }
 }
