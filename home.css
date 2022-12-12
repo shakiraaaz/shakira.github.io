@@ -33,6 +33,7 @@ header{
     color: aliceblue;
     height: 80px;
     width: 100%;
+    
 }
 
 .header-logo{
@@ -99,8 +100,8 @@ main{
 footer{
     background-color: black;
     color: #cecece;
-    padding: 25px;
-    height: 30px;
+    line-height: 50px;
+    height: 50px;
     width: 100%;
     margin-top: auto;
     text-align: center;
