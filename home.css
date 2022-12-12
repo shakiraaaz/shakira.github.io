@@ -11,6 +11,8 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow-x: hidden;
+    
     
 }
 a{
@@ -43,9 +45,13 @@ header{
 .header-nav li{
     float: right;
     padding: 30px 25px;
+    
    
 }
-
+.header-nav ul{
+    display: flex;
+    float: right;
+}
 /* MAIN / CONTENT */
 main{
     padding: 70px 70px; 
@@ -55,10 +61,10 @@ main{
 
 .main-container h1{
     font-size: 65px;
-    color: rgb(0, 0, 0);
+    color: rgb(73, 73, 73);
     border-bottom: 2px solid #cecece;
     padding-bottom: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
     
 }
@@ -99,8 +105,53 @@ footer{
     margin-top: auto;
     text-align: center;
 }
+/* hamburger menu*/
+.menu-toggle{
+    display:none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    margin: 25px;
+    float: right;
+    position: relative;
+}
+.menu-toggle input{
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -6px;
+    opacity: 0;
+    cursor: pointer;
+}
+.menu-toggle span{
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color:white;
+    border-radius: 3px;
+    transition: all 0.5s;
 
-@media (max-width:600px){
+}
+
+/* hamburger menu animation */
+.menu-toggle span:nth-child(2){
+    transform-origin: 0 0;
+    
+}
+.menu-toggle span:nth-child(4){
+    transform-origin: 0 100%;}
+
+.menu-toggle input:checked ~ span:nth-child(2){
+    transform: rotate(45deg) translate(-1PX, -1PX);
+}
+.menu-toggle input:checked ~ span:nth-child(4){
+    transform: rotate(-45deg) translate(-1px, 0px);
+}
+.menu-toggle input:checked ~ span:nth-child(3){
+    transform: scale(0);
+    opacity: 0;
+}
+    @media (max-width:600px){
     .main-container h1{
     font-size: 35px;
     }
@@ -115,5 +166,29 @@ footer{
         font-size: 6px;
         padding: 2px 2px;
        
+    }
+}
+@media screen and (max-width:600px){
+    .header-nav ul{
+        position:absolute;
+        right:0;
+        flex-direction: column;
+        background-color: #000000;
+        top: 0;
+        height: 80vh;
+        align-items: center;
+        margin-top: 80px;
+        width: 100%;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+      
+    }
+    .header-nav ul.slide{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .menu-toggle{
+        display:flex;
     }
 }
